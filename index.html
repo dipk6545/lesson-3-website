@@ -1,117 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
-    <title>Component Library</title>
-  </head>
-                            
-  <body>
-    <h1>Welcome to Adarsh Balika</h1>
-    <p>
-      I am attending neig.camp and I want to make a librabry which would make
-      all amy projects look ggod and consistent.
-    </p>
-    <hr />
 
-    <h2>@typography</h2>
-    <h1>This is the biggest heading</h1>
-    <p>
-      Let me show you the normal test. This is free flowing and will wrap at the
-      end like a paragraph
-    </p>
-    <small>This is a releatively smaller text</small>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <title>Component Library</title>
+</head>
 
-    <h2>@containers</h2>
+<body>
+  <h1>Welcome to Adarsh Balika</h1>
+  <p>
+    I am attending neig.camp and I want to make a librabry which would make
+    all amy projects look ggod and consistent.
+  </p>
+  <hr />
 
-    <h3>@fluid container</h3>
-    <div class="container container-fluid">This a fluid container and it will go till the end of the page.</div>
+  <h2>@typography</h2>
+  <h1>This is the biggest heading</h1>
+  <p>
+    Let me show you the normal test. This is free flowing and will wrap at the
+    end like a paragraph
+  </p>
+  <small>This is a releatively smaller text</small>
 
-    <h3>@center container</h3>
+  <h2>@containers</h2>
+
+  <h3>@fluid container</h3>
+  <div class="container container-fluid">This a fluid container and it will go till the end of the page.</div>
+
+  <h3>@center container</h3>
+  <div class="container container-center">
+    This is a fluid container and it will go till the specified width.
+  </div>
+  <hr />
+
+  <h2>@links</h2>
+  <a class="link primary-link" href="/">Primary Link</a>
+  <a class="link secondary-link" href="/">Secondary Links</a>
+
+  <hr />
+
+  <h2>@Lists</h2>
+  <h3>unordered list</h3>
+  <ul class="ul-no-bullets">
+    <li>iten-one</li>
+    <li>iten-two</li>
+    <li>iten-three</li>
+  </ul>
+
+  <h3>unordered inline list</h3>
+  <ul class="ul-no-bullets">
+    <li class="item-inline">Inline item one</li>
+    <li class="item-inline">Inline item two</li>
+    <li class="item-inline">Inline item three</li>
+  </ul>
+
+  <h3>reverse ordered list</h3>
+  <ol reversed>
+    <li>milk</li>
+    <li>eggs</li>
+    <li>break</li>
+  </ol>
+  <hr />
+
+  <h2>@nav</h2>
+
+  <nav class="navigation container">
+    <div class="nav-brand">I Am Devloper</div>
+    <ul class="ul-no-bullets nav-pills">
+      <li class="item-inline">
+        <a class="link link-active" href="/">Home</a>
+      </li>
+      <li class="item-inline">
+        <a class="link" href="/">Products</a>
+      </li>
+      <li class="item-inline">
+        <a class="link" href="/">About</a>
+      </li>
+    </ul>
+  </nav>
+  <hr />
+
+  <h2>@header</h2>
+  <header class="hero">
+    <img class="hero-img" src="Images/hero.svg" />
+    <h1 class="hero-heading">Adarsh Balika The <span class="heading-inverted" style="color: var(--primary-color);"> Web
+        Developer</span></h1>
+  </header>
+  <hr />
+
+  <h2>@section</h2>
+  <section class="section w">
     <div class="container container-center">
-      This is a fluid container and it will go till the specified width.
+      <h1>white section</h1>
+      <p>The display CSS property sets whether an element is treated as a block or inline element and the layout used
+        for
+        its children, such as flow layout, grid or flex. Formally, the display property sets an element's inner and
+        outer
+        display types.</p>
     </div>
-    <hr />
+  </section>
 
-    <h2>@links</h2>
-    <a class="link primary-link" href="/">Primary Link</a>
-    <a class="link secondary-link" href="/">Secondary Links</a>
+  <section class="section ow">
+    <h1>off white section</h1>
+    <div class="container container-center">
+      <p>The display CSS property sets whether an element is treated as a block or inline element and the layout used
+        for
+        its children, such as flow layout, grid or flex. Formally, the display property sets an element's inner and
+        outer
+        display types.</p>
+    </div>
+  </section>
 
-    <hr />
+  <hr>
 
-    <h2>@Lists</h2>
-    <h3>unordered list</h3>
-    <ul class="ul-no-bullets">
-      <li>iten-one</li>
-      <li>iten-two</li>
-      <li>iten-three</li>
+  <h2>@footer</h2>
+  <footer>
+    <div>Some small heading inside footer</div>
+    <ul>
+      <li>socialone</li>
+      <li>socialtwo</li>
+      <li>socialthree</li>
     </ul>
+  </footer>
 
-    <h3>unordered inline list</h3>
-    <ul class="ul-no-bullets">
-      <li class="item-inline">Inline item one</li>
-      <li class="item-inline">Inline item two</li>
-      <li class="item-inline">Inline item three</li>
-    </ul>
 
-    <h3>reverse ordered list</h3>
-    <ol reversed>
-      <li>milk</li>
-      <li>eggs</li>
-      <li>break</li>
-    </ol>
-    <hr />
+</body>
 
-    <h2>@nav</h2>
-    
-    <nav class="navigation container">
-      <div class="nav-brand">I Am Devloper</div>
-      <ul class="ul-no-bullets nav-pills">
-        <li class="item-inline">
-          <a class="link link-active" href="/">Home</a>
-        </li>
-        <li class="item-inline">
-          <a class="link" href="/">Products</a>
-        </li>
-        <li class="item-inline">
-          <a class="link" href="/">About</a>
-        </li>
-      </ul>
-    </nav>
-    <hr />
-
-    <h2>@header</h2>
-    <header class="hero">
-      <img class="hero-img" src="Images/hero.svg" />
-      <h1 class="hero-heading">Adarsh Balika The <span class="heading-inverted" style="color: var(--primary-color);"> Web Developer</span></h1>
-    </header>
-    <hr />
-
-    <h2>@section</h2>
-    <section>
-      <h3>white section</h3>
-      <p>This will go end to end with little margin at both sides</p>
-    </section>
-
-    <section>
-      <h3>off white section</h3>
-      <p>This will go end to end with little margin at both sides</p>
-    </section>
-
-    <hr>
-
-    <h2>@footer</h2>
-    <footer>
-      <div>Some small heading inside footer</div>
-      <ul>
-        <li>socialone</li>
-        <li>socialtwo</li>
-        <li>socialthree</li>
-      </ul>
-    </footer>
-
-    
-  </body>
 </html>
