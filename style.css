@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
 
 :root {
-  --primary-color: #ff9d9d;
+  --primary-color: hsl(0, 100%, 81%);
   --dark-grey: grey;
   --off-white: rgb(243, 243, 243);
   --white: rgb(254, 255, 238);
@@ -40,6 +40,7 @@ hr {
   color: var(--primary-color);
   border-radius: 0.5rem;
   border: 1px solid var(--primary-color);
+  font-weight: bold;
 }
 
 /* list */
@@ -117,6 +118,19 @@ hr {
   color: var(--white);
 }
 
+.footer-header{
+  font-weight: bold;
+  font-size: x-large;
+}
+
 .footer ul {
   padding-inline-start: 0px;
+}
+
+.footer a{
+  font-size: large;
+}
+.about{
+  max-width: 800px;
+  margin: auto;
 }
